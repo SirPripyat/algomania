@@ -6,7 +6,7 @@ import {exampleWithForOf} from "./loops-examples/example-with-for-of.js";
 import {exampleWithForIn} from "./loops-examples/example-with-for-in.js";
 import {exampleWithWhile} from "./loops-examples/example-with-while.js";
 
-const arrayToTest = generateRandomNumbers(1_000_000)
+const arrayToTest = generateRandomNumbers(10_000_000)
 
 const sumArrayExamples = {
     for: exampleWithFor,
